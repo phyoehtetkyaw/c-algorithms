@@ -41,7 +41,11 @@ void linearSearch(int find, int *array, int length)
         {
             printf("Found number: %i\n", array[i]);
             printf("Found in: %i\n", i);
+            return 1;
         }
     }
+
+    printf("Number can't found!");
+    return 0;
 }
 
